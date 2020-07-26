@@ -31,7 +31,3 @@ def parse(date):
     data[4] = 'Влажность ' + data[4]
     data[5] = 'Ветер ' + data[5]
     return '\n'.join(data[:-1])
-
-
-date = '2 Август'
-print(parse(date))
